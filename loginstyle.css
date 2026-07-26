@@ -1,0 +1,49 @@
+/* ==========================
+   LOGIN PAGE
+========================== */
+
+.min-vh-100{
+
+    background:linear-gradient(135deg,#0D6EFD,#4F9BFF);
+
+}
+
+.card{
+
+    overflow:hidden;
+
+}
+
+.input-group-text{
+
+    background:#0D6EFD;
+    color:#fff;
+    border:none;
+
+}
+
+.form-control{
+
+    border-left:none;
+
+}
+
+.form-control:focus{
+
+    box-shadow:none;
+    border-color:#0D6EFD;
+
+}
+
+.btn-primary{
+
+    border-radius:8px;
+
+}
+
+.btn-outline-danger,
+.btn-outline-primary{
+
+    border-radius:8px;
+
+}

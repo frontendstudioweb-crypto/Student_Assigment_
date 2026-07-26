@@ -1,0 +1,37 @@
+/* ===================================
+   REGISTER PAGE
+=================================== */
+
+.register-page{
+
+    background:#F8F9FA;
+
+}
+
+.register-page .card{
+
+    border-radius:20px;
+
+}
+
+.register-page .form-control,
+.register-page .form-select{
+
+    height:50px;
+    border-radius:10px;
+
+}
+
+.register-page textarea{
+
+    height:auto;
+
+}
+
+.register-page .btn{
+
+    height:55px;
+    font-size:18px;
+    border-radius:10px;
+
+}

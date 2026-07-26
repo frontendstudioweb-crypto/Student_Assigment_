@@ -1,0 +1,174 @@
+/* ==========================
+   GLOBAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#F4F7FC;
+}
+
+/* ==========================
+   SIDEBAR
+========================== */
+
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:260px;
+    height:100vh;
+    background:#0D6EFD;
+    padding:25px;
+    color:#fff;
+    overflow-y:auto;
+}
+
+.sidebar .logo{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.sidebar .logo h4{
+    color:#fff;
+}
+
+.sidebar ul{
+    list-style:none;
+    padding:0;
+}
+
+.sidebar ul li{
+    margin-bottom:10px;
+}
+
+.sidebar ul li a{
+    display:block;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 15px;
+    border-radius:8px;
+    transition:.3s;
+}
+
+.sidebar ul li.active a,
+.sidebar ul li a:hover{
+    background:rgba(255,255,255,.2);
+}
+
+/* ==========================
+   MAIN CONTENT
+========================== */
+
+.main-content{
+    margin-left:280px;
+    padding:30px;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+    border-radius:12px;
+}
+
+/* ==========================
+   CARD
+========================== */
+
+.card{
+    border:none;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    margin-bottom:25px;
+}
+
+/* ==========================
+   FORM
+========================== */
+
+.form-control,
+.form-select{
+    border-radius:8px;
+}
+
+/* ==========================
+   BUTTON
+========================== */
+
+.btn{
+    border-radius:8px;
+}
+
+/* ==========================
+   TABLE
+========================== */
+
+.table th{
+    white-space:nowrap;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+/* ==========================
+   BADGE
+========================== */
+
+.badge{
+    padding:8px 14px;
+}
+
+/* ==========================
+   UPLOAD PAGE
+========================== */
+
+.upload-box{
+    border:2px dashed #0D6EFD;
+    border-radius:12px;
+    padding:40px;
+    background:#F8FAFF;
+    transition:.3s;
+}
+
+.upload-box:hover{
+    background:#EEF5FF;
+}
+
+.upload-box input{
+    margin-top:20px;
+}
+
+textarea{
+    resize:none;
+}
+
+.alert{
+    border-radius:10px;
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:992px){
+
+    .sidebar{
+        position:relative;
+        width:100%;
+        height:auto;
+    }
+
+    .main-content{
+        margin-left:0;
+        padding:20px;
+    }
+
+}

@@ -1,0 +1,114 @@
+/* ==========================
+   GLOBAL
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8f9fa;
+    color:#333;
+}
+
+a{
+    text-decoration:none;
+}
+
+img{
+    max-width:100%;
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.navbar{
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+
+    background:#0D6EFD;
+    color:white;
+    padding:100px 0;
+
+}
+
+.hero h1{
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    margin-bottom:30px;
+
+}
+
+/* ==========================
+   CARDS
+========================== */
+
+.card{
+
+    border:none;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.feature-icon{
+
+    font-size:50px;
+    color:#0D6EFD;
+    margin-bottom:20px;
+
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+
+    margin-top:50px;
+
+}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+padding:70px 0;
+
+}
+
+.hero img{
+
+margin-top:40px;
+
+}
+
+}
